@@ -9,7 +9,7 @@ $ git clone https://github.com/Zortax/Vimix-Midnight-Firefox.git
 
 2.
 ```sh
-$ ln -s ./Vimix-Midnight-Firefox/chrome ~/.mozilla/firefox/<profile>/chrome
+$ ln /<DownloadPath>/Vimix-Midnight-Firefox/chrome/ ~/.mozilla/firefox/<profile>/chrome
 ```
 
 3.
