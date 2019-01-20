@@ -15,6 +15,7 @@
   padding-left: 6px !important;
   padding-right: 6px !important;
   background: var(--chrome-secondary-background-color) !important;
+  margin-bottom: -1px; !important;
 }
 
 #navigator-toolbox :-moz-any(.toolbarbutton-1, .bookmark-item)
