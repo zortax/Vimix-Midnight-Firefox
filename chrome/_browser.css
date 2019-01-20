@@ -433,3 +433,9 @@
     transform: translateX(.5px) !important;
   }
 }
+
+#identity-box.extensionPage #identity-icon-labels 
+{
+  display: none !important;
+}
+
