@@ -1,0 +1,6 @@
+#appMenu-popup > .panel-arrowcontainer > .panel-arrowcontent,
+panel[photon] > .panel-arrowcontainer > .panel-arrowcontent {
+  overflow: hidden;
+  border-radius: 10px;
+}
+

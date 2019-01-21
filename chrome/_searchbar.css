@@ -1,0 +1,17 @@
+.search-panel-one-offs {
+    display: none !important;
+}
+
+.search-panel-header {
+    display: none !important;
+}
+
+#PopupAutoCompleteRichResult .autocomplete-richlistbox {
+    padding-left: 100px !important;
+    padding-right: 70px !important;
+}
+
+#PopupAutoCompleteRichResult .autocomplete-richlistitem {
+    border-radius: 99px !important;
+}
+
