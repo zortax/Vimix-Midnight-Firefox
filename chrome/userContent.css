@@ -1,3 +1,68 @@
+@import "_vars.css";
+
 INPUT, TEXTAREA {color: black; background: white; }
+
+@-moz-document domain(duckduckgo.com) {
+
+    body, .body--home, .site-wrapper, .region__body, .badge-link, .modal__box, .module--news__left, .module--news__right, .module--news__image-wrapper, .result__image, .map-detail, .vertical--map__sidebar, .vertical--map__sidebar__header {
+        background-color: var(--chrome-secondary-background-color) !important;
+    }
+
+    .search--home, .search--header {
+        background-color: var(--textbox-background-color) !important;
+        border-color: transparent !important;
+        border-radius: 99px !important;
+    }
+
+    .tag-home {
+        display: none !important;
+    }
+
+    .header--aside {
+        display: none !important;
+    }
+
+    .onboarding-ed__arrow-teaser .onboarding-ed__arrow-teaser__alpinist {
+        display: none !important;
+    }
+
+    .onboarding-ed__arrow-teaser .onboarding-ed__arrow-teaser__arrow-wrapper {
+        display: none !important;
+    }
+
+    .onboarding-ed__slide {
+        display: none !important;
+    }
+
+    .onboarding-ed {
+        display: none !important;
+    }
+
+    .header-wrap {
+        background-color: var(--chrome-background-color) !important;
+    }
+
+    .search__button:hover, .search__button--active, .search:hover .search__button, .search__input:focus ~ .search__button, .search--header.has-text.search--hover .search__button, .search--header.has-text.search--focus .search__button, .search--home.has-text .search__button, .search__button:focus, .search:hover .search__button:focus, .search--header.has-text.search--hover .search__button:hover, .search--header.has-text.search--focus .search__button:hover, .search--home.has-text .search__button:focus, .search--home.has-text .search__button:hover{
+        background-color: transparent !important;
+    }
+
+    .search-filters-wrap::before,
+    .search-filters-wrap::after {
+        background-image: none !important;
+    }
+
+    .result__check {
+        color: #909090 !important;
+    }
+
+    .content-wrap {
+        width: 70% !important;
+    }
+
+    .has-zcm .header {
+        margin-left: 15% !important;
+    }
+
+}
 
 

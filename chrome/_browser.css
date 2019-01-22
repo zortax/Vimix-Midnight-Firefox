@@ -146,6 +146,7 @@
   box-shadow: none !important;
   margin: 1px !important;
   padding: 1px !important;
+  padding-top: 10px
   background-clip: padding-box !important;
 }
 
@@ -200,14 +201,17 @@
 #TabsToolbar
 {
   -moz-appearance: none !important;
-  background: 0 !important;
+  /*background: 0 !important;*/
+  background-color: var(--chrome-background-color) !important;
   color: inherit !important;
   padding-right: 2px !important;
+  padding-top: 5px !important;
 }
 
 #tabbrowser-tabs
 {
   padding-right: 2px !important;
+  max-height: 30px;
 }
 
 .titlebar-placeholder
@@ -437,5 +441,13 @@
 #identity-box.extensionPage #identity-icon-labels 
 {
   display: none !important;
+}
+
+panelview {
+    background-color: var(--chrome-background-color) !important;
+}
+
+panel[type="autocomplete-richlistbox"] {
+    background-color: var(--chrome-background-color) !important;
 }
 

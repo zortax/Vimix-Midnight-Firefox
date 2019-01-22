@@ -9,8 +9,8 @@
   
   --chrome-color: #b5b5b5 !important;
   --lwt-text-color: var(--chrome-color) !important;
-  --chrome-background-color: #1b1e21 !important;
-  --chrome-secondary-background-color: #282D32 !important;
+  --chrome-background-color: #15151a !important;
+  --chrome-secondary-background-color: #1E2127 !important;
   --toolbox-border-bottom-color: hsla(0, 0%, 70%, .0) !important;
   
   --toolbar-color: hsl(0, 0%, 70%) !important;
@@ -20,8 +20,8 @@
   
   --lwt-toolbar-field-color: var(--toolbar-color) !important;
   
-  --textbox-background-color: #383D42;
-  --textbox-background-color-focused: #40444C;
+  --textbox-background-color: #2d2f36;
+  --textbox-background-color-focused: #32353d;
   
   --textbox-inner-color-focused: rgba(0, 0, 0, .0);
   --textbox-outer-color-focused: rgba(0, 0, 0, .0);
@@ -35,7 +35,7 @@
 #titlebar,
 #tabbrowser-tabs
 {
-  --tab-min-height: 26px !important;
+  --tab-min-height: 30px !important;
 }
 
 #main-window[privatebrowsingmode]
