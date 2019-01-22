@@ -15,3 +15,29 @@
     border-radius: 99px !important;
 }
 
+#PopupAutoCompleteRichResult,
+#PopupSearchAutoComplete {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+#PopupAutoCompleteRichResult {
+    overflow: hidden !important;
+    /*margin-left: -12px !important;
+    background-color: transparent !important!;
+    border-width: -50px !important;
+    border-style: solid !important;
+    border-color: rgba(255,255,255,.0) !important;*/
+}
+
+/* Space allocated to URL and title 
+.autocomplete-richlistitem .ac-url-text {
+    min-width: calc(0.50 * (940px - 100px)) !important;
+    max-width: calc(0.50 * (950px - 100px)) !important;
+}
+
+.autocomplete-richlistitem .ac-title-text {
+    min-width: calc(0.50 * (940px - 100px)) !important;
+    max-width: calc(0.50 * (940px - 100px)) !important;
+}*/
+
